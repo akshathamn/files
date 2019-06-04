@@ -1,0 +1,27 @@
+/*.pink-text{
+	color: pink;
+}*/
+.a{
+	border: solid;
+	border-width: 100;
+}
+.a{
+	z-index: 0;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	padding-right:20px;
+}
+.b{
+	z-index: 1;
+	position: absolute;
+	margin-left: 25px;
+	width: 40px;
+	
+}
+.c{
+	z-index: 2;
+	position: absolute;
+	margin-left: 50px;
+
+}

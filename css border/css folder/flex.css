@@ -1,0 +1,22 @@
+.flex_container{
+	display:flex;
+	background-color:green;
+	flex-direction: row;
+	/*justify-content:flex-start;*
+
+	flex-flow:row wrap;*/
+   /* align-content:flex-start;*/
+/*	justify-content: center;*/
+	/*height: 800px;*/
+
+}
+.flex_item div{
+	background-color: blue;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+
+}
+/*#a{
+	flex-grow: 5;
+}*/

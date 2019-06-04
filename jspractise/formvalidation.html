@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form validation example</title>
+</head>
+<body>
+
+<form id="email_form" method="get" action="demo.html" 
+onsubmit="return validate('email_form','email');">
+<p>enter email id:</p>
+<!-- <p id="demo" style="color: red;"></p> -->
+<input type="text" id="email" name="email">
+<input type="submit" name="submit">
+</form>
+<script type="text/javascript">
+	
+	function validate(form_id,email_id){
+
+var reg = /^([A-Za-z0-9_\-\.]+){1,}\@([A-Za-z0-9_\-\.]+){1,}\.([A-Za-z]+){2,4}$/;
+
+var address = document.forms[form_id].elements[email_id].value;
+if(reg.test(address) == false){
+
+alert("inavlid email please enter valid email id");
+return false;
+
+}
+
+
+}
+
+</script>
+</body>
+</html>
